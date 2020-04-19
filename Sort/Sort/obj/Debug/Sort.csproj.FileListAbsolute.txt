@@ -1,0 +1,3 @@
+C:\Users\robot\Desktop\РАб стол\Програмирование\Сортировка\Sort\Sort\obj\Debug\Sort.csprojAssemblyReference.cache
+C:\Users\robot\Desktop\РАб стол\Програмирование\Сортировка\Sort\Sort\obj\Debug\Sort.Properties.Resources.resources
+C:\Users\robot\Desktop\РАб стол\Програмирование\Сортировка\Sort\Sort\obj\Debug\Sort.csproj.GenerateResource.cache
