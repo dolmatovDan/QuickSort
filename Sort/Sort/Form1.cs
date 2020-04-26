@@ -71,6 +71,8 @@ namespace Sort
             show_elements();
             is_sorted = false;
             btnBinSearch.Enabled = false;
+            binary_search_actions(false);
+            set_default_colors();
         }
         private List<int> get_indexies()
         {
@@ -97,7 +99,7 @@ namespace Sort
                 free_indexies.RemoveAt(elem_index);
             }
             is_sorted = false;
-            btnBinSearch.Enabled = false;
+            binary_search_actions(false);
         }
 
         private void btnMixed_Click(object sender, EventArgs e)
@@ -107,12 +109,53 @@ namespace Sort
 
         private void btnSort_Click(object sender, EventArgs e)
         {
-
+            sort_elements();
+            sort_elements();
         }
 
         private void btnBinSearch_Click(object sender, EventArgs e)
         {
+            if (is_sorted)
+            {
+                tbBinarySearch.ReadOnly = false;
+                set_default_colors();
+                binary_search(tbBinarySearch.Text);
+            }
+        }
+        private void sort_elements()
+        {
+            QuickSort.quick_sort(elements);
+            is_sorted = true;
+            btnBinSearch.Enabled = true;
+            binary_search_actions(true);
+            show_elements();
+        }
+        private void set_default_colors()
+        {
+            for(int i = 0; i < form_elements.Count; i++)
+            {
+                form_elements[i].Tb.BackColor = Color.White;
+            }
+        }
+        private void binary_search_actions(bool value)
+        {
+            btnBinSearch.Enabled = value;
+            tbBinarySearch.ReadOnly = !value;
+            tbBinarySearch.Text = "";
+            
+        }
+        private void binary_search(string key)
+        {
+            int index = BinarySearch.binarySearch(elements, key);
+            if(index != -1)
+            {
+                form_elements[index].Tb.BackColor = Color.GreenYellow;
 
+            }
+            else
+            {
+                MessageBox.Show("Elemnt don't find", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

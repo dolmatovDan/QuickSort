@@ -51,6 +51,7 @@
             this.btnMixed = new System.Windows.Forms.Button();
             this.btnSort = new System.Windows.Forms.Button();
             this.btnBinSearch = new System.Windows.Forms.Button();
+            this.tbBinarySearch = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbArray1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbArray2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbArray3)).BeginInit();
@@ -229,7 +230,7 @@
             this.btnMixed.Name = "btnMixed";
             this.btnMixed.Size = new System.Drawing.Size(398, 235);
             this.btnMixed.TabIndex = 20;
-            this.btnMixed.Text = "button1";
+            this.btnMixed.Text = "Mixed";
             this.btnMixed.UseVisualStyleBackColor = true;
             this.btnMixed.Click += new System.EventHandler(this.btnMixed_Click);
             // 
@@ -239,7 +240,7 @@
             this.btnSort.Name = "btnSort";
             this.btnSort.Size = new System.Drawing.Size(398, 235);
             this.btnSort.TabIndex = 21;
-            this.btnSort.Text = "button2";
+            this.btnSort.Text = "Sort";
             this.btnSort.UseVisualStyleBackColor = true;
             this.btnSort.Click += new System.EventHandler(this.btnSort_Click);
             // 
@@ -249,15 +250,23 @@
             this.btnBinSearch.Name = "btnBinSearch";
             this.btnBinSearch.Size = new System.Drawing.Size(398, 235);
             this.btnBinSearch.TabIndex = 22;
-            this.btnBinSearch.Text = "button3";
+            this.btnBinSearch.Text = "Binary Search";
             this.btnBinSearch.UseVisualStyleBackColor = true;
             this.btnBinSearch.Click += new System.EventHandler(this.btnBinSearch_Click);
+            // 
+            // tbBinarySearch
+            // 
+            this.tbBinarySearch.Location = new System.Drawing.Point(1491, 1154);
+            this.tbBinarySearch.Name = "tbBinarySearch";
+            this.tbBinarySearch.Size = new System.Drawing.Size(398, 22);
+            this.tbBinarySearch.TabIndex = 23;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(2049, 1283);
+            this.Controls.Add(this.tbBinarySearch);
             this.Controls.Add(this.btnBinSearch);
             this.Controls.Add(this.btnSort);
             this.Controls.Add(this.btnMixed);
@@ -324,6 +333,7 @@
         private System.Windows.Forms.Button btnMixed;
         private System.Windows.Forms.Button btnSort;
         private System.Windows.Forms.Button btnBinSearch;
+        private System.Windows.Forms.TextBox tbBinarySearch;
     }
 }
 

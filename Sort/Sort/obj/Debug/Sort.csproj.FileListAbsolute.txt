@@ -1,3 +1,12 @@
 C:\Users\robot\Desktop\РАб стол\Програмирование\Сортировка\Sort\Sort\obj\Debug\Sort.csprojAssemblyReference.cache
 C:\Users\robot\Desktop\РАб стол\Програмирование\Сортировка\Sort\Sort\obj\Debug\Sort.Properties.Resources.resources
 C:\Users\robot\Desktop\РАб стол\Програмирование\Сортировка\Sort\Sort\obj\Debug\Sort.csproj.GenerateResource.cache
+C:\Users\robot\Desktop\quick_sort\Sort\Sort\bin\Debug\Sort.exe.config
+C:\Users\robot\Desktop\quick_sort\Sort\Sort\bin\Debug\Sort.exe
+C:\Users\robot\Desktop\quick_sort\Sort\Sort\bin\Debug\Sort.pdb
+C:\Users\robot\Desktop\quick_sort\Sort\Sort\obj\Debug\Sort.csprojAssemblyReference.cache
+C:\Users\robot\Desktop\quick_sort\Sort\Sort\obj\Debug\Sort.Form1.resources
+C:\Users\robot\Desktop\quick_sort\Sort\Sort\obj\Debug\Sort.Properties.Resources.resources
+C:\Users\robot\Desktop\quick_sort\Sort\Sort\obj\Debug\Sort.csproj.GenerateResource.cache
+C:\Users\robot\Desktop\quick_sort\Sort\Sort\obj\Debug\Sort.exe
+C:\Users\robot\Desktop\quick_sort\Sort\Sort\obj\Debug\Sort.pdb
